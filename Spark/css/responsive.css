@@ -1,0 +1,1275 @@
+/**
+* [Table of contents]
+  1 1290px css
+  2 1440px css
+  3 1630px css
+  4 1599px css
+  5 1429px css
+  6 1199px css
+  7 991px css
+  8 767px css
+  9 575px css
+  10 480px css
+  11 350px css
+/**
+
+/* 1290px css */
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+/* 1440px css */
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+/* 1630px css */
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1630px;
+    }
+}
+/* 1599px css */
+@media only screen and (max-width: 1599px) {
+    .home-banner {
+        padding: 120px 0;
+    }
+}
+/* 1429px css */
+@media only screen and (max-width: 1429px) {
+     /* Comman Css */
+    .heading h2 {
+        font-size: 40px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 8px 20px;
+    }
+    /* Header Css */   
+    li.nav-item .nav-link {
+        font-size: 14px;
+    }
+    /*=== Home Page Section Css ===*/
+    .home-banner {
+        background: url("../images/home-banner.png") no-repeat center right/55%;
+    }
+    .main-heading h1 {
+        font-size: 55px;
+    }
+    .main-heading h1 br {
+        display: none;
+    }
+    .home-icon a i {
+        width: 60px;
+        height: 60px;
+        line-height: 21px;
+        font-size: 25px;
+    }
+    /* You Can Expect Section Css */
+    .who-spark-banner {
+    	height: 80vh;
+	}
+    .expect-content h5 {
+        font-size: 20px;
+    }
+    /* Effective Features Section Css */
+    .effective-content h5 {
+        font-size: 20px;
+    }
+    /* Owl User Slider Section Css */
+    #sync2 .item .user-content h5 {
+        font-size: 22px;
+    }
+    /* Contact Form Us Section Css */
+    .contact-content h5 {
+        font-size: 16px;
+    }
+    .contact-content  h6 {
+        font-size: 14px;
+    }
+    .contact-image {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }/*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+    /* Author Section Css */
+    .author-content .sig-img {
+        width: 130px;
+    }
+    .author-content h5 {
+        font-size: 20px;
+    }
+    /* Investor Section Css */ 
+    .our-investiment-bg {
+        padding: 0 40px;
+    }
+    .investor-img {
+        max-width: 110px;
+        max-height: 110px;
+    } 
+    .about-investor h5 {
+        font-size: 18px;
+    }
+    .investor-content {
+        padding: 20px 0 10px 0;
+    }
+    .spark-bg {
+        padding: 40px 60px 20px 60px;
+    } 
+    /* Our Investor Partners Section Css */
+    .partner-content h5 {
+        font-size: 18px;
+    }/*=== About Page Section Css ===*/
+    /*=== Career Page Section Css ===*/ 
+    /* Why Join Us Section Css */ 
+    .join-content h5 {
+        font-size: 20px;
+    }
+    .oppo-banner {
+        height: 75vh;
+    }
+    /* New Opportunity Section Css */
+    .oppo-content h5 {
+        font-size: 18px;
+    }
+    /*=== Career Page Section Css ===*/ 
+    /*=== Team Page Section Css ===*/
+    /* Spark Team Portfolio Section Css */ 
+    .member-name h5 {
+        font-size: 20px;
+    }
+    .follow li {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+    /* Developer And Marketer Section Css */
+    .member-banner {
+        height: 75vh;
+    }
+    .spark-content h3 {
+        font-size: 25px;
+    }/*=== Team Page Section Css ===*/
+}
+/* 1199px css */
+@media only screen and (max-width: 1199px) {
+     /* Comman Css */
+    .heading h2 {
+        font-size: 35px;
+        margin-top:0;
+    }
+    body p{
+        font-size: 14px;
+    }
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    input::placeholder,textarea::placeholder{
+        font-size: 14px;
+    }
+    /*=== Home Page Section Css ===*/
+    .home-banner {
+        background: url("../images/home-banner.png") no-repeat center right/62%;
+    }
+    .main-heading h1 {
+        font-size: 48px;
+    }
+    /* You Can Expect Section Css */
+    .expect-content h5 {
+        font-size: 17px;
+    }
+    .expect-content p {
+        font-size: 12px;
+    }
+    /* Modern Feature Section Css */
+    .feature-bg {
+        background: url("../images/feature-bg.png") no-repeat center left/45%;
+        height: 70vh;
+    }
+    .both-bg {
+        background: url("../images/both-bg.png") no-repeat center right/45%;
+        height: 70vh;
+    }
+    .dark-color {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    /* Effective Feature Section Css */
+    .effetive-image::after {
+        top: 60px;
+        bottom: -50px;
+    }
+    .effective-content h5 {
+        font-size: 17px;
+    }
+    .effective-content p {
+        font-size: 12px;
+    }
+    /* How We are Work Section Css */
+    .we-bg {
+        background: url("../images/we-bg.png")no-repeat center right/10%,url("../images/we-bg2.png")no-repeat bottom left/10%;
+    }
+    .video-popup-button {
+        font-size: 16px;
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+    }
+    .video-popup-button img {
+        margin-left: 6px;
+    }
+    /* Owl User Slider Section Css */
+    #sync2 .item .user-content h5 {
+        font-size: 20px;
+    }
+    /* Newsletter Section Css */
+    .news-bg {
+        background: url("../images/we-bg.png")no-repeat center right/10%,url("../images/effective1.png") no-repeat bottom left/15%;
+        background-color: #fff6e5;
+    }
+    .news-bg h2 {
+        margin-bottom: 0;
+        margin-top: 0px;
+    }
+    /* Contact Form Section Css */
+    .contact-content h5 {
+        font-size: 14px;
+    }
+    .contact-content h6 {
+        font-size: 13px;
+    }
+    .contact-image {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contact-content address {
+        font-size: 13px;
+    }
+    /*Footer Css */
+    footer img {
+        width: 180px;
+    }/*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+    /* Who Spark Section Css */
+    .who-spark-banner {
+        background: url("../images/who-spark.png") no-repeat center right/70%;
+    }
+    .who-spark-banner a {
+        font-size: 18px;
+    }
+    /* Our Author Section Css */
+    .author-content img {
+        max-width: 50px;
+    }
+    .author-bg {
+        margin-top: -135px;
+    }
+    .author-content h5 {
+        font-size: 18px;
+    }
+    .author-content .sig-img {
+        width: 110px;
+    }
+    /* Investor Section Css */
+    .our-investiment-bg::after {
+        width: 60px;
+        height: 60px;
+    }
+    .about-investor {
+        margin-left: 20px;
+    }
+    /* our Investor partner Section Css */
+    .partner-content h5 {
+        font-size: 16px;
+    }
+    .slider-nav2 {
+        margin: 30px 0;
+    }/*=== About Page Section Css ===*/
+     /*=== Career Page Section Css ===*/ 
+     /* Oppoturnity Section Css */
+     .oppo-banner {
+        background: url("../images/oppo-bg.png") no-repeat center right/65%;
+    }
+    .new-oppo-border {
+        margin: 0; 
+        padding: 20px 20px 20px 20px;
+    }
+    /* Who We Loking Section Css */
+    .looking-bg {
+        margin-top: -115px;
+    }
+    /* Why Join Us Section Css */
+    .oppo-content h5 {
+    	font-size: 15px;
+	}
+    .join-content h5 {
+        font-size: 17px;
+    }
+    .join-content p {
+        font-size: 12px;
+    }/*=== Career Page Section Css ===*/ 
+    /*=== Team Page Section Css ===*/ 
+    /* Spark Team Section Css */
+    .member-img {
+        width: 80px;
+        height: 80px;
+    }
+    .member-name h5 {
+        font-size: 17px;
+    }
+    .follow li {
+        margin-top: 16px;
+        margin-right: 15px;
+    }
+    .about-member-follow {
+    	padding: 40px 55px 2px 55px;
+	}
+    /* Developer And Markter Section Css */
+    .spark-content h3 {
+        font-size: 22px;
+    }/*=== Team Page Section Css ===*/ 
+    /*=== Privacy Page Section Css ===*/ 
+    .privacy-banner {
+       padding: 30px;
+    }/*=== Privacy Page Section Css ===*/ 
+    /*=== FAQ Page Section Css ===*/ 
+    .faq-banner {
+        padding: 30px;
+    }/*=== FAQ Page Section Css ===*/ 
+}
+/* 991px css */
+@media only screen and (max-width: 991px) {
+    /**********  Responsive Menu Bootstrap **********/
+   .navbar-expand-lg > .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /**  menu  **/
+    .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        line-height: 39px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: transparent;
+        border: 1px solid #ffbd3b;
+        text-align: center;
+        z-index: 99;
+        display: block;
+        transition: all 0.5s;
+        margin-left: 20px;
+    }
+    .show-menu .navbar-toggler {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: none;
+    }
+    .navbar-toggler span {
+        position: relative;
+        width: 60%;
+        height: 2px;
+        background-color: #362a52;
+        display: inline-block;
+        vertical-align: middle;
+        top: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .navbar-toggler span::before,
+    .navbar-toggler span::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #362a52;
+        right: 0;
+        transition: all 0.5s;
+        animation: openCloseByeSpan 300ms linear forwards;
+    }
+    .navbar-toggler span::before {
+        top: -6px;
+    }
+    .navbar-toggler span::after {
+        top: 6px;
+    }
+    .show-menu .navbar-toggler span::before, .show-menu .navbar-toggler span::after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: rotate(45deg);
+        top: -2px;
+    }
+    .show-menu .navbar-toggler span::after {
+        transform: rotate(-45deg);
+    }
+    .show-menu .navbar-toggler span {
+        height: 0;
+    }
+    #navbarNav {
+        background: #fff;
+        box-shadow: 0 0px 0 10px #fff inset, 0 0 0 11px #362a52 inset;
+        padding: 60px 20px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        bottom: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        height: auto !important;
+        overflow: auto;
+    }
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    /* Header Css */
+    li.nav-item:nth-child(4) {
+        margin-right: 0;
+    }
+    a.nav-link img {
+        margin-right: 10px;
+        margin-left: -23px;
+    }
+    li.nav-item .nav-link {
+        margin: 0 0 30px 0;
+        font-size: 18px;
+    }
+    /* Comman Css */
+    .heading h2 {
+        font-size: 30px;
+    }
+    body p {
+        font-size: 12px;
+    }
+    .dark-color {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    /*=== Home Page Section Css ===*/
+    .main-heading h1 {
+        font-size: 40px;
+    }
+    .home-icon a i {
+        width: 55px;
+        height: 55px;
+        line-height: 16px;
+        font-size: 20px;
+    }
+    /* You Can Expect Section Css */
+    .expect-img {
+        max-width: 60px;
+        max-height: 60px;
+        margin: 20px auto;
+    }
+    .expect-content h5 {
+        font-size: 14px;
+    }
+    .feature-bg, .both-bg{
+        height: 50vh;
+    }
+    .effetive-image::after {
+        display: none;
+    }
+    /* Effective Feature Section Css */
+    .effective {
+        margin: 0 auto;
+        margin-top: -20px;
+    }
+    .effective1 {
+        margin-top: -60px;
+    }
+    .effective-bg {
+        padding: 30px 0;
+    }
+    .effective-bg h2 {
+        font-size: 27px;
+    }
+    .effective-img {
+        max-width: 60px;
+        max-height: 60px;
+        margin: 20px auto;
+    }
+    .effective-content h5 {
+        font-size: 14px;
+    }
+    .effetive-image::after{
+        top: 103px;
+    }
+    .effetive-image::after {
+        display: none;
+    }
+    .effetive-image {
+        margin-top: 5px; 
+    }
+    /* How We are Work Section Css */
+    .video-popup-button {
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+        top:55%;
+    }
+    .video-popup-button img {
+        max-width: 20px;
+    }
+    /* Owl User Slider Section Css */
+    .slider-nav button.owl-prev{
+        top: 65%;
+        left: 6%;
+    }
+     .slider-nav button.owl-next {
+        top: 65%;
+        right: 6%;
+    }
+    #sync2 .item .user-content {
+        padding: 10px 10px;
+    }
+    /* Contact Section Css */
+    .contact-image {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    .contact-border {
+      border-right: none;
+      border-bottom:  2px solid #fff9eb;
+    }
+    .contact-head {
+        text-align: center;
+    }
+    .contact-content h5 {
+        margin-top: 5px;
+    }
+    /* Footer Css */
+    .footer-icon li a {
+        width: 40px;
+        height: 40px;
+        line-height: 43px;
+        font-size: 20px;
+    }
+    .footer-content li {
+        padding: 0 10px;
+    }
+    .footer-content li a {
+        font-size: 14px;
+    }/*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+    /* Who Spark Section Css */
+    .who-spark-banner {
+        height: 70vh;
+    }
+    /* Our Author Section Css */
+    .head h2 br{
+        display: none;
+    }
+    /* Investor Section Css */
+    .about-ivest {
+        margin-top: 0px;
+    }
+    .about-ivest h2{
+        text-align: center;
+    }
+    .our-investiment-bg::after {
+        left: -5.4%;
+    }
+    .slider-nav1 {
+        margin: 40px 0;
+        text-align: center;
+    }
+    .spark-bg {
+        padding: 40px 30px 20px 30px;
+    }
+    .spark-content h3 {
+        font-size: 20px;
+    }
+    /* Our Investemnt Partner Css */
+    .partner-content h5 {
+        font-size: 13px;
+    }/*=== About Page Section Css ===*/
+    /*=== Career Page Section Css ===*/
+    /* Oppoturnity Section Css */
+    .oppo-banner {
+        height: 70vh;
+        background: url("../images/oppo-bg.png") no-repeat center right/70%;
+    }
+    /* Why Join Us Section Css*/
+    .join-img{
+        max-width: 60px;
+        max-height: 60px;
+        margin: 20px auto;
+    }
+    .join-content h5 {
+        font-size: 14px;
+    }/*=== Career Page Section Css ===*/
+    /*=== Team Page Section Css ===*/
+    /* Oppoturnity Section Css */
+    .member-banner{
+        height: 75vh;
+        background: url("../images/team-bg.png") no-repeat center right/70%;
+    }
+    /* Spark Team Css */
+    .about-member-follow p {
+        font-size: 16px;
+    }
+    .about-member-follow {
+    	padding: 40px 64px 2px 64px;
+	}
+    .follow li {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+    .member-name p {
+        font-size: 14px;
+    }
+    /* Markter And Developer Section Css */
+    .markter {
+        padding: 50px 30px 40px 30px;
+    }/*=== Team Page Section Css ===*/
+    /*=== FAQ Page Section Css ===*/
+    .faq-banner {
+        padding: 15px;
+    }/*=== FAQ Page Section Css ===*/
+    /*=== Privacy Page Section Css ===*/
+    .privacy-banner {
+        padding: 15px;
+    }/*=== Privacy Page Section Css ===*/
+}
+/* 767px css */
+@media only screen and (max-width: 767px) {
+    /* Header Css */
+    .navbar-brand {
+        width: 130px;
+    }
+    /* Comman Css */
+    .heading h2 {
+        font-size: 25px;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+	/*=== Home Page Section Css ===*/
+    .home-banner {
+        padding: 80px 0;
+        background: url("../images/home-banner.png") no-repeat center right/75%;
+    }
+    .main-heading h1 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .main-heading h1 br {
+        display: block;
+    }
+
+    /* You Can Expect Section Css */
+    .expect-content h5 {
+        font-size: 14px;
+    }
+    .expect-content-bg {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    /* Modern Feature Section Css */
+    /* Effective Feature Section Css */
+    .effective-content-bg {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .effetive-image::after {
+     display: none;
+    }
+    .effective1 {
+        margin-top: 0px;
+    }
+    /* Owl User Section Css */
+    .slider-nav img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .slider-nav button {
+        margin: 0 0px;
+    }
+    #sync2 .item .user-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    #sync2 .item .user-content h5 {
+        font-size: 16px;
+    }
+    /* News Letter Section Css */
+    .email-btn i {
+        margin-left: 0px;
+    }
+    .email-btn input {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+    /* Contact Form Section Css */
+    .contact-us .media:nth-child(2) {
+        margin-left: 30px;
+    }
+    /* Footer Css */
+    footer img {
+        width: 150px;
+    }
+    .footer-content li {    
+        margin-top: 5px;
+    }
+    .footer-icon li:nth-child(1) {
+        margin-left: -40px;
+    }
+    .footer-content li:nth-child(1) {
+        margin-left: -50px;
+    }/*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+    /* Who Spark Section Css */
+    .who {
+        margin: 0px 0 100px 0;
+    }
+    .who-spark-banner {
+        height: 100%;
+        background: url("../images/who-spark.png") no-repeat center right/91%;
+    }
+    .line-img {
+        max-width: 80px;
+        margin-top: -20px;
+    }
+    .who-spark-banner a {
+        font-size: 16px;
+    }
+    /* Our Author Section Css */
+    .author-bg {
+        margin-top: -106px;
+    }
+    .author-content img {
+        max-width: 40px;
+    }
+    .author-content h5 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .author-content h6{
+        font-size: 14px;
+    }
+    /* Investor Section Css */
+    .investor-img {
+        max-width: 90px;
+        max-height: 90px;
+    }
+    .about-investor h5 {
+        font-size: 16px;
+    }
+    .our-investiment-bg {
+        margin: 0 15px;
+    }
+    .our-investiment-bg::after {
+        left: -5.4%;
+    }
+    .our-investiment-bg::after {
+        width: 50px;
+        height: 50px;
+    }
+    .slider-nav1 img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .slider-nav1 button {
+        margin: 0 0px;
+    }
+    .spark {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .btn-blue {
+        margin-top: 10px;
+    }
+    /* Our Investment Partner Section Css */
+    .partner-bg {
+        margin-bottom: 15px;
+    }
+    .partner-content p {
+        margin-bottom: 10px;
+    }
+    .slider-nav2 img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .slider-nav2 button {
+        margin: 0 0px;
+    }/*=== About Page Section Css ===*/
+    /*=== Career Page Section Css ===*/
+    /* Opportunity Section Css*/
+    .oppo-banner {
+        height: 100%;
+    }
+    /* Who Are Looking Sectio Css */
+    .looking-bg {
+        margin-top: -95px;
+        padding: 30px;
+    }
+    /* Why Join Us Section Css */
+    .join-us-bg {
+        margin-top: 20px;
+    }
+    /* Office Enviroment Section Css */
+    .office-enviroment {
+        margin-top: 30px;
+    }
+    /* New Opportunity Section Css */
+    .new-oppo-border {
+        margin: 20px 0;
+        padding: 10px 10px 20px 30px;
+    }
+    .oppo-content a {
+        margin-bottom: 30px;
+        font-size: 16px;
+    }/*=== Career Page Section Css ===*/
+    /*=== Team Page Section Css ===*/
+    /* Meet Member Section Css */
+    .member-banner{
+        height: 55vh;
+    }
+    /* Spark Team Section Css */
+    .team-memebr .member-profession li a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .about-member-follow {
+        padding: 40px 30px 2px 30px;
+    }
+    .follow li {
+        margin-top: 12px;
+        margin-right: 13px;
+    }/*=== Team Page Section Css ===*/
+    /*=== Privacy Page Section Css ===*/
+    .policy-content {   
+        padding: 30px;
+    }/*=== Privacy Page Section Css ===*/
+    /*=== FAQ Page Section Css ===*/
+    .accordion-header {
+        font-size: 14px;
+    }
+    .accordion-body__contents {
+        font-size: 12px;
+    }
+    .accordion__item > .accordion-header::after {
+       top: -2px;
+    }
+     .accordion__item > .accordion-header::before {
+       top: -2px;
+    } /*=== FAQ Page Section Css ===*/
+}
+/* 575px css */
+@media only screen and (max-width: 575px) {
+    /* Comman Css */
+    .heading h2 {
+        font-size: 22px;
+    }
+    input::placeholder,textarea::placeholder{
+        font-size: 12px;
+    }
+    /*=== Home Page Section Css ===*/
+    .home-banner {
+        background: url("../images/home-banner.png") no-repeat center right/80%;
+    }
+    .main-heading h1 {
+        font-size: 30px;
+    }
+    /* You Can Expect Section Css */
+    
+    /* Modern Feature Section Css */
+    .feature-bg {
+        background: transparent;
+        height: 100%;
+        margin: 0;
+        padding-bottom: 0;
+    }
+    .both-bg {
+        background: transparent;
+        height: 100%;
+        margin: 0;
+    } 
+    /* How We Are Work Section Css */
+    .we-border {
+        padding: 10px;
+        margin-top: 0px;
+    }
+    .video-popup-button {
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .video-popup-button img {
+        max-width: 15px;
+    }
+    /* Owl User Slider Section Css */
+    .slider-nav button.owl-prev {
+        bottom: 20px;
+        left: 40%;
+        top: auto;
+    }
+    .slider-nav button.owl-next {
+        bottom: 20px;
+        right: 40%;
+        top: auto;
+    }
+    #sync2 .item .user-content {
+        margin: 20px 15px; 
+    }
+    /* News Letter Section Css */
+    .email-btn i {
+        margin-top: 12px;
+    }
+    .contact-form {
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+    .news-bg {
+        padding: 40px 0;
+    }
+    /* Footer Css */
+    .footer-content {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-content li:nth-child(1) {
+        margin-left: -35px;
+    }
+    .footer-content li {
+        margin-top: 0;
+    }
+    .footer-icon {
+        margin-top: 30px;
+         margin-bottom: 10px;
+    }/*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+    /* Who Spark Section Css */
+    .who-spark-banner {
+        height: 55vh;
+    }
+    /* Our Investment Partner Css */
+    .partner-content h5 {
+        font-size: 16px;
+    }
+    /*=== Career Page Section Css ===*/
+    /* Opportunity Section Css */
+    .oppo-banner {
+        height: 100%;
+    }
+    /* Join Us Section Css */
+    .join-content h5 {
+        font-size: 17px;
+    }
+    .oppo-content h5 {
+        font-size: 16px;
+    }
+    .oppo-content a {
+        font-size: 14px;
+    }
+    /*=== Team Page Section Css ===*/
+    /* Meet Member Section Css */
+    .member-banner {
+        height: 50vh;
+    }
+    /* Spark Team Section Css */
+    .team-memebr .member-profession li {
+        padding: 0px 3px;
+    }
+    .follow li {
+        margin-right: 28px;
+    }
+    .spark-content h3 br {
+        display: none;
+    }
+    .about-member-follow {
+        padding: 40px 89px 2px 89px;
+    } /*=== Team Page Section Css ===*/
+    /*=== FAQ Page Section Css ===*/
+    .accordion-header {
+        font-size: 12px;
+    }
+    .accordion__item > .accordion-header::after {
+       top: -2px;
+       left:30px;
+    }
+    .accordion__item > .accordion-header::before {
+       top: -2px;
+       left:0;
+    }/*=== FAQ Page Section Css ===*/
+}
+/* 480px css */
+@media only screen and (max-width: 480px) {
+    /* Header Css */
+    li.nav-item .nav-link {
+        font-size: 14px;
+    }
+    .navbar-toggler {
+        width: 35px;
+        height: 35px;
+        line-height: 34px;
+    }
+    .navbar-brand {
+        width: 110px;
+    }
+    /* Comman Css */
+    .heading h2 {
+        font-size: 20px;
+    }
+    /*=== Home Page Section Css ===*/
+    .main-heading h1 {
+        font-size: 25px;
+    }
+    .home-icon {
+        margin-top: 30px;
+        margin-bottom: 90px;
+    }
+    .home-icon a i {
+        width: 45px;
+        height: 45px;
+        line-height: 5px;
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .home-banner {
+        padding: 40px 0 0;
+    }
+    /* You Can Expect Section Css */
+    .expect-img {
+        max-width: 50px;
+        max-height: 50px;
+    }
+    /* Modern Feature Section Css */
+    .dark-color {
+         margin-bottom: 10px;
+    }
+    /* Owl User Slider Css */
+    .video-popup-button{
+    	top:50%;
+    }
+    #sync2 .item .user-content h5 {
+        font-size: 14px;
+    }
+    .slider-nav button.owl-prev {
+        left: 35%;
+    }
+    .slider-nav button.owl-next {
+        right: 35%;
+    }
+    /* Contact Form Section Css */
+    .contact-image {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contact-us .media:nth-child(2) {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .contact-us {
+        margin-bottom: 20px;
+    }
+    .contact-form-bg i {
+        margin-left: 0px;
+        font-size: 18px;
+    }  
+    .contact-form-bg {
+        padding: 0px 20px 2px 20px;
+        margin-bottom: 10px;
+    } /*=== Home Page Section Css ===*/
+    /*=== About Page Section Css ===*/
+     /* Who Spark Banner */
+    .who-spark-banner a {
+        font-size: 14px;
+    }
+    .who-spark-banner {
+        height: 100%;
+        background: transparent;
+    }
+    .line-img {
+        max-width: 70px;
+    }
+    /* Our Author Section Css */
+    .author-content img {
+        max-width: 33px;
+    }
+    .author-content .sig-img {
+        width: 80px;
+    }
+    .author-content h5 {    
+        font-size: 14px;
+    }
+    .author-content h6 {
+        font-size: 12px;
+    }
+    /* investor Section Css */
+    .our-investiment-bg {
+        padding: 0 20px;
+    }
+    .investor-img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .about-investor h5 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .our-investiment-bg::after {
+        width: 40px;
+        height: 40px;
+        left: -5.4%;
+    }
+    .spark-bg {
+        padding: 20px 20px 20px 20px;
+        text-align: center;
+    }/*=== About Page Section Css ===*/
+    /*=== Career Page Section Css ===*/
+    .oppo-banner {
+        height: 100%;
+        background: transparent; 
+    }
+    /* Who where looking Section Css */
+    .looking-bg {
+        padding: 30px 10px;
+    }
+    /* New Opportunity Section Css */
+   .new-oppo-border {
+        margin: 0px 0;
+        padding: 10px 10px 20px 20px;
+    }
+    .oppo-content h5 {
+        font-size: 12px;
+    }
+    .oppo-content p{
+        font-size: 10px;
+    }
+    .oppo-content a {
+        font-size: 12px;
+    }
+    .oppo-content img {
+        max-width: 60px;
+    }/*=== Career Page Section Css ===*/
+    /*=== Team Page Section Css ===*/
+   .member-banner {
+        height: 100%;
+        background: transparent;
+    }
+    .team {
+        margin: 0px 0 60px 0;
+    }
+    /* Spark Team Section Css */
+    .team-memebr .member-profession li {
+        padding: 0px 8px;
+        margin:0;
+    }
+    .team-memebr .member-profession li a {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .team-memebr .member-profession li a:nth-child(1) {
+        margin-left: -30px;
+    }
+    .team-memebr {
+        border-bottom: none;
+    }
+    .member-profession {
+        margin-bottom: -11px;
+    }
+    .follow li {
+        margin-right: 15px;
+    }
+    .about-member-follow {
+    	padding: 40px 62px 2px 62px;
+	}
+    .spark-content h3 {
+        font-size: 16px;
+    }
+    /* Footer Css */
+    footer img {
+        width: 130px;
+    }
+    /*=== Policy Section Css ===*/
+    /*=== Policy Section Css ===*/
+    /*=== FAQ Section Css ===*/
+    .accordion__item > .accordion-header::before {
+        width: 20px;
+        height: 20px;
+    }
+    .accordion__item > .accordion-header::after {
+        width: 20px;
+        height: 20px;
+        left: 20px;
+    }
+    .accordion__item > .accordion-header::after:nth-child(3){
+        left:10px;
+    } 
+    /*=== FAQ Section Css ===*/
+}
+/* 350px css */
+@media only screen and (max-width: 350px) {
+    /* Comman Css */
+    section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /*=== About Page Section Css ===*/
+    .who {
+        margin: 0px 0 140px 0;
+    }
+    /*=== Career Page Section Css ===*/
+    .oppo-banner {
+    	height: 100%;
+	}
+    .looking-bg {
+        margin-top: -130px;
+    }
+    .oppo-content h5 {
+        font-size: 10px;
+    }
+    .video-popup-button img {
+    	margin-left: 4px;
+	}
+    /*=== Team Section Css ===*/
+	.slider-nav button.owl-prev {
+        bottom: 10px;
+    }
+    .slider-nav button.owl-next {
+        bottom: 10px;
+    }
+    .member-banner {
+        height: 50vh;
+        padding-top: 0;
+    }
+    .author-bg {
+        margin-top: -136px;
+    }
+    .about-member-follow {
+        padding: 40px 35px 2px 35px;
+    }
+    .team-memebr .member-profession li a:nth-child(1) {
+        margin-left: -39px;
+    }
+}
