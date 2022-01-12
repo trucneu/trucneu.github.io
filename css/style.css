@@ -88,15 +88,18 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
 }/* defalut css*/
 /* Comman Css*/
 .main-heading h1{
-  font-size: 65px;
+  font-size: 55px;
   color: #362a52;
-  line-height: 1.5;
-  margin-bottom: 30px;
+  line-height: 1.35;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
+
 .main-heading h1 span{
   background-color: #ffbd3b;
   padding: 0 5px;
 }
+
 .heading h2{
   color: #fff;
   font-size:45px;
