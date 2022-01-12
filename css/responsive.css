@@ -186,11 +186,19 @@
     }
     /* Modern Feature Section Css */
     .feature-bg {
-        background: url("../images/feature-bg.png") no-repeat center left/45%;
+        background: url("../images/feature-bg.gif") no-repeat center left/45%;
         height: 70vh;
     }
     .both-bg {
-        background: url("../images/both-bg.png") no-repeat center right/45%;
+        background: url("../images/both-bg.gif") no-repeat center right/45%;
+        height: 70vh;
+    }
+    .end-bg {
+        background: url("../images/end-bg.gif") no-repeat center left/45%;
+        height: 70vh;
+    }
+    .save-bg {
+        background: url("../images/save-bg.gif") no-repeat center right/45%;
         height: 70vh;
     }
     .dark-color {
@@ -1039,6 +1047,7 @@
     .heading h2 {
         font-size: 20px;
     }
+
     /*=== Home Page Section Css ===*/
     .main-heading h1 {
         font-size: 25px;

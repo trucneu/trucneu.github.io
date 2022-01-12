@@ -260,8 +260,9 @@ a.nav-link img {
 }/* You Can Expect Css */
 /* Modern Feature Css */
 .feature-bg{
-  background: url("../images/feature-bg.png") no-repeat center left/44%;
-  height: 90vh;
+  margin-top: 0;
+  background: url("../images/feature-bg.gif") no-repeat center left/44%;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -274,13 +275,36 @@ a.nav-link img {
   padding: 0 5px;
 }
 .both-bg{
-  background: url("../images/both-bg.png") no-repeat center right/41%;
-  height: 90vh;
+  background: url("../images/both-bg.gif") no-repeat center right/41%;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 0;
-}/* Modern Feature Css */
+}
+
+.end-bg{
+  margin-top: 0;
+  background: url("../images/end-bg.gif") no-repeat center left/44%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+}
+
+.save-bg{
+  background: url("../images/save-bg.gif") no-repeat center right/41%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  margin-bottom: 40px;
+}
+
+
+/* Modern Feature Css */
 /* Effective Feature Css */
 .effective-bg{
   background:url("../images/effective.png")no-repeat center right/15%,url("../images/effective1.png") no-repeat bottom left/20%;
