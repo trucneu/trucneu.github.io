@@ -348,7 +348,7 @@ a.nav-link img {
 }
 .effetive-image{
   position: relative;
-  margin-top: 40px;
+  margin-top: 0px;
 }
 .effetive-image:after{
   position: absolute;
@@ -357,7 +357,7 @@ a.nav-link img {
   top:0;
   left:0;
   right: 0;
-  bottom: -50px;
+  bottom: -150px;
 }/* Effective Feature Css */
 /* How We Work Css */
 .we-bg{

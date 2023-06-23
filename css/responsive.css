@@ -207,7 +207,7 @@
     }
     /* Effective Feature Section Css */
     .effetive-image::after {
-        top: 60px;
+        top: 0px;
         bottom: -50px;
     }
     .effective-content h5 {
@@ -519,19 +519,19 @@
     .effective-img {
         max-width: 60px;
         max-height: 60px;
-        margin: 20px auto;
+        margin: 10px auto;
     }
     .effective-content h5 {
         font-size: 14px;
     }
     .effetive-image::after{
-        top: 103px;
+        top: 10px;
     }
     .effetive-image::after {
         display: none;
     }
     .effetive-image {
-        margin-top: 5px; 
+        margin-top: 0px; 
     }
     /* How We are Work Section Css */
     .video-popup-button {
